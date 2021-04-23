@@ -2,8 +2,17 @@
   "name": "trigram-filter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glamp/trigram-filter.git"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "trigram",
+    "search"
+  ],
   "scripts": {
+    "prepare": "npm run build",
     "build": "babel src/index.js --out-dir dist"
   },
   "author": "Greg Lamp",
